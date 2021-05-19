@@ -7,7 +7,7 @@ export default class Dashboard extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col">
+        <div className="col" style={{marginTop: "4%"}}>
           <PokemonList />
         </div>
       </div>

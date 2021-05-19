@@ -188,7 +188,7 @@ export default class Pokemon extends Component {
 
   render() {
     return (
-      <div className="col">
+      <div className="col" style={{marginTop: "4%"}}>
         <div className="card">
           <div className="card-header">
             <div className="row">
